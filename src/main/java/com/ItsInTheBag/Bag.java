@@ -24,9 +24,8 @@ public class Bag<T> implements Container<T> {
         return this.con.size();
     }
 
-
     public void add(T item) {
-        this.con.add(0, item);
+        this.con.add(item);
     }
 
     public Iterator<T> iterator() {
